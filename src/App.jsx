@@ -1,0 +1,32 @@
+import { useState } from 'react'
+import './App.css'
+import Shape from "./assets/SVG/Asset10.svg?react";
+
+function App() {
+  return (
+    <div>
+      <h1> My Portfolio </h1>
+      <AboutCard />
+    </div>
+  );
+}
+
+function AboutCard() {
+  return (
+    <div className="about-card">
+      <div className="pic"></div>
+      <Shape className="blob" />
+      <div className="contact">
+        <h3>Contacts</h3>
+        <ul>
+          <li>Email:</li>
+          <li>Github:</li>
+          <li>LinkedIn:</li>
+        </ul>
+      </div>
+      <h2> About Me </h2>
+      <p> Frontend-focused Web Developer with strong skills in HTML, CSS, and JavaScript, currently expanding into MERN stack. Experienced in Python, MySQL, R and data visualization, with the ability to build user-friendly interfaces and analyze data effectively. Passionate about creating responsive web applications and intuitive UI/UX designs. </p>
+    </div>
+  )
+}
+export default App
