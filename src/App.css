@@ -6,7 +6,6 @@
   width: 60vw;
   color: whitesmoke;
   padding: 30px;
-  position: relative;
 }
 
 .pic{
@@ -22,6 +21,17 @@
 .blob{
   grid-column: 1 / span 9;
   grid-row: 1 / span 6;
+}
+
+.star{
+  grid-column: 1 / span 3;
+  grid-row: 2 / span 2;
+  height: 120px;
+  width: 120px;
+  fill: #f2f2f2;
+  justify-self: start;
+  align-self: end;
+  margin: 20px 0px 0px 0px;
 }
 
 .about-card h2 {
@@ -53,7 +63,7 @@
 
 .contact h3{
     text-align: center;
-    margin: 100px 0px 10px 40px;
+    margin: 80px 0px 10px 40px;
     font-size: 40px;
     font-family: josefin slab;
     font-weight: bold;
