@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 116.45 56.74"><defs><style>.cls-1{fill:#242623;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_5" data-name="Layer 5"><path class="cls-1" d="M6,38.59,40.6,21v9.66L15.74,42.79,40.6,55.25V65L6,47.13Z" transform="translate(-5.96 -11.46)"/><path class="cls-1" d="M49.23,68.2,70.16,11.46h9L58.28,68.2Z" transform="translate(-5.96 -11.46)"/><path class="cls-1" d="M122.41,47.38,87.77,65V55.24l24.86-12.12L87.77,30.67V21l34.64,17.83Z" transform="translate(-5.96 -11.46)"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 116.45 56.74"><defs>
+</defs><g id="Layer_2" data-name="Layer 2">
+<g id="Layer_5" data-name="Layer 5">
+<path d="M6,38.59,40.6,21v9.66L15.74,42.79,40.6,55.25V65L6,47.13Z" transform="translate(-5.96 -11.46)"/>
+<path d="M49.23,68.2,70.16,11.46h9L58.28,68.2Z" transform="translate(-5.96 -11.46)"/>
+<path d="M122.41,47.38,87.77,65V55.24l24.86-12.12L87.77,30.67V21l34.64,17.83Z" transform="translate(-5.96 -11.46)"/>
+</g></g></svg>

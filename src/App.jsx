@@ -4,6 +4,11 @@ import Shape from "./assets/SVG/Asset10.svg?react";
 import Star from "./assets/SVG/Background/Asset8.svg?react";
 import Techstack from "./assets/SVG/Techstack/base.svg?react";
 import Tool from "./assets/SVG/Tools/blob2.svg?react";
+import Base from "./assets/SVG/Tools/base.svg?react";
+import A1 from "./assets/SVG/Techstack/a1.svg?react";
+import A2 from "./assets/SVG/Techstack/a2.svg?react";
+import A3 from "./assets/SVG/Techstack/a3.svg?react";
+import A4 from "./assets/SVG/Techstack/a4.svg?react";
 
 function App() {
   return (
@@ -33,7 +38,12 @@ function AboutCard() {
       <Techstack className="base" />
       <h3 className= 'Techstack'>Tech Stack</h3>
       <Tool className="blob2" />
+      <A1 className="a1" />
+      <A2 className="a2" />
+      <A3 className="a3" />
+      <A4 className="a4" />
       <h3 className= 'Tools'>Tools</h3>
+      <Base className="base2" />
     </div>
   )
 }
