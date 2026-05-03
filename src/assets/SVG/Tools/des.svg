@@ -1,1 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 78.62 92.68"><defs><style>.cls-1{fill:none;stroke:#657ba6;stroke-miterlimit:10;stroke-width:3px;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_5" data-name="Layer 5"><polygon class="cls-1" points="1.5 22.1 19.53 1.5 77.12 1.5 77.12 91.18 1.5 91.18 1.5 22.1"/><rect class="cls-1" x="13.31" y="23.5" width="53" height="27"/><line class="cls-1" x1="13.31" y1="60.5" x2="39.31" y2="60.5"/><line class="cls-1" x1="47.31" y1="65.5" x2="67.31" y2="65.5"/><line class="cls-1" x1="13.31" y1="79.5" x2="67.31" y2="79.5"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 78.62 92.68">
+<defs>
+</defs>
+<g id="Layer_2" data-name="Layer 2">
+<g id="Layer_5" data-name="Layer 5">
+<polygon points="1.5 22.1 19.53 1.5 77.12 1.5 77.12 91.18 1.5 91.18 1.5 22.1"/>
+<rect  x="13.31" y="23.5" width="53" height="27"/>
+<line  x1="13.31" y1="60.5" x2="39.31" y2="60.5"/>
+<line  x1="47.31" y1="65.5" x2="67.31" y2="65.5"/>
+<line  x1="13.31" y1="79.5" x2="67.31" y2="79.5"/></g></g></svg>

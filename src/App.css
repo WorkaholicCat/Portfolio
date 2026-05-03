@@ -160,61 +160,168 @@
   fill:#bbb;
 }
 
-.a1{
-  grid-column:2;
+.a1{ 
+  height: 40px;
+  width: auto;
+  fill: #242623;
+}
+.t1{
+  grid-column:1/ span 3;
   grid-row: 7/ span 2;
   position: relative;
   z-index: 7;
   align-self: end;
-  justify-self: start;
-  margin-bottom: 12px;
-  margin-right: 10px; 
-  height: 30%;
-  width: auto;
-  fill: #242623;
+  justify-self: center;
+  margin-right: 50px;
 }
 
 .a2{
-  grid-column:2/ span 2;
-  grid-row: 6/ span 2;
-  position: relative;
-  z-index: 7;
-  justify-self: center;
-  align-self: center;
-  margin-right:35px;
-  margin-bottom: 60px;
   fill:none;
-  height: 55%;
+  height: 70px;
   width: auto;
   stroke:#333;
   stroke-miterlimit:10;
   stroke-width:3.84px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+}
+
+.t2{
+  grid-column:2/ span 2;
+  grid-row: 5/ span 2;
+  position: relative;
+  z-index: 7;
+  justify-self: center;
+  align-self: center;
+}
+
+.t2 .tooltip{
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 8;
 }
 
 .a3{
+  height: 70px;
+  width: auto;
+  margin-top: 20px;
+  margin-right:55px;
+}
+
+.t3{
   grid-column:3/ span 2;
-  grid-row: 7/ span 2;
+  grid-row: 6/ span 3;
   position: relative;
   z-index: 7;
-  justify-self: start;
-  align-self: center;
-  height: 55%;
-  margin-left: 65px;
-  margin-bottom: 20px;
 }
 
 .a4{
-  grid-column:4/ span 2;
-  grid-row: 5/ span 3;
-  position: relative;
-  z-index: 7;
   width: auto;
+  fill:none;
+  height:60px;
+  margin-top: 30px;
+  margin-right: 120px;
+}
+
+.t4{
+  grid-column:4/ span 2;
+  grid-row:4/ span 3;
+  position: relative;
+  z-index: 8;
+  justify-self: end;
+  align-self: center;
+  }
+
+.b1{ 
+  height: 65px;
+  width: auto;
+  fill:none;
+  stroke:#657ba6;
+  stroke-miterlimit:10;
+  stroke-width:3px;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+.t5{
+  grid-column:5/ span 1;
+  grid-row: 5/ span 4;
+  position: relative;
+  z-index: 8;
   justify-self: start;
   align-self: end;
-  margin-left: 30px;
-  margin-bottom: 80px;
-  fill:none;
-  height: 35%;
+  margin-bottom: 40px;
+}
+
+.t5 .tooltip{
+  margin-bottom: 20px;
+}
+
+.b2{
+  height: 70px;
+  width: auto;
+}
+
+.t6{
+  grid-column:5/ span 2;
+  grid-row: 5/ span 3;
+  position: relative;
+  z-index: 8;
+  justify-self: end;
+  align-self: center;
+  margin-left: 100px;
+  margin-bottom: 40px;
+}
+
+.b3{
+  height: 65px;
+  width: auto;
+}
+.t7{
+  grid-column:6/ span 2;
+  grid-row: 6/ span 3;
+  position: relative;
+  z-index: 8;
+  justify-self: center;
+  align-self: center;
+  margin-top: 90px;
+  margin-right: 30px;
+}
+
+.t7 .tooltip{
+  margin-bottom: 10px;
+}
+
+.about-card:hover::after {
+  opacity: 1;
+}
+
+.tooltip {
+  background: #1a1a1a;
+  color: white;
+  font-family: 'maven pro', sans-serif;
+  font-size: 14px;
+  opacity: 0; 
+  transition: all 0.3s ease;
+  z-index: 10; 
+  pointer-events: none;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.t1:hover, .t2:hover, .t3:hover, .t4:hover, .t5:hover, .t6:hover, .t7:hover {
+  z-index: 10; 
+}
+
+.t1:hover .tooltip, 
+.t2:hover .tooltip, 
+.t3:hover .tooltip, 
+.t4:hover .tooltip, 
+.t5:hover .tooltip, 
+.t6:hover .tooltip, 
+.t7:hover .tooltip {
+  opacity: 1;
+  transform: translateX(-50%) translateY(-5px); 
 }
 
 body {
