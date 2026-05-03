@@ -95,10 +95,14 @@
 .contact ul {
   margin: 0px ;
   text-align: left;
-  font-size: 20px;
+  font-size: 15px;
   font-family: maven pro;
   position: relative;
   z-index: 2;
+}
+
+a {
+  color: #f2f2f2;
 }
 
 .Techstack {
