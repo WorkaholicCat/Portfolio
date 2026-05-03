@@ -34,8 +34,8 @@ function AboutCard() {
           <h3>Contacts</h3>
           <ul>
             <li>Email: <b>aartha.tab@gmail.com</b></li>
-            <li>Github: <a href="https://github.com/WorkaholicCat"> <b>WorkaholicCat</b></a> </li>
-            <li>LinkedIn:<a href= "https://linkedin.com/in/aartha-singh-20226129b/?skipRedirect=true"><b>Aartha Singh</b></a></li>
+            <li>Github: <a href="https://github.com/WorkaholicCat" target="_blank" rel="noreferrer"><b>workaholicCat</b></a></li>
+            <li>LinkedIn: <a href="https://linkedin.com/in/aartha-singh-20226129b" target="_blank" rel="noreferrer"><b>Aartha Singh</b></a></li>
           </ul>
         </div>
         <h2> About Me </h2>
