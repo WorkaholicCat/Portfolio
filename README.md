@@ -17,14 +17,14 @@ The project focuses on **layout precision, interactive UI states, advanced CSS l
 The initial design featured a centralized interface with abstract geometric elements and decorative motifs to create a layered, modern aesthetic.
 Created on : Adobe Illustrator
 
-> 📌 ![Illustrator](./pics/illustratordesign)
+> 📌 ![Illustrator](pics/illustratordesign.png)
 
 ---
 
 ### 💻 The Live Deployment
 The final application, built with React (Vite) and hosted on Vercel, successfully replicates the original vision with **pixel-perfect alignment and interactive accessibility**.
 
-> 📌 ![Website](./pics/website)
+> 📌 ![Website](pics/website.png)
 
 ---
 
